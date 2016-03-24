@@ -41,6 +41,7 @@ public class UserProfileBridge implements LockReactBridge {
     private static final String NAME_KEY = "name";
     private static final String NICKNAME_KEY = "nickname";
     private static final String CREATED_AT_KEY = "createdAt";
+    private static final String PICTURE = "picture";
 
     private UserProfile profile;
 
@@ -56,6 +57,7 @@ public class UserProfileBridge implements LockReactBridge {
             profileMap.putString(ID_KEY, profile.getId());
             profileMap.putString(NAME_KEY, profile.getName());
             profileMap.putString(NICKNAME_KEY, profile.getNickname());
+            profileMap.putString(PICTURE, profile.getPictureURL());
             if (profile.getCreatedAt() != null) {
                 // use ISO 8601 international standard date/time format
                 SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'");
