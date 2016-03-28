@@ -22,7 +22,7 @@
  * THE SOFTWARE.
  */
 
-package com.auth0.lock.react;
+package io.holis.lock.react;
 
 
 import com.auth0.core.Strategies;

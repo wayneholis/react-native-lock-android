@@ -22,7 +22,7 @@
  * THE SOFTWARE.
  */
 
-package com.auth0.lock.react.bridge;
+package io.holis.lock.react.bridge;
 
 
 import android.support.annotation.Nullable;
@@ -37,7 +37,7 @@ public class TokenBridge implements LockReactBridge {
     private static final String ID_TOKEN_KEY = "idToken";
     private static final String REFRESH_TOKEN_KEY = "refreshToken";
     private static final String TYPE_KEY = "type";
-    
+
     private Token token;
 
     public TokenBridge(@Nullable Token token) {

@@ -22,13 +22,13 @@
  * THE SOFTWARE.
  */
 
-package com.auth0.lock.react.bridge;
+package io.holis.lock.react.bridge;
 
 
 import android.support.annotation.Nullable;
 import android.util.Log;
 
-import com.auth0.lock.react.LockReactModule;
+import io.holis.lock.react.LockReactModule;
 import com.facebook.react.bridge.ReadableArray;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.ReadableMapKeySetIterator;

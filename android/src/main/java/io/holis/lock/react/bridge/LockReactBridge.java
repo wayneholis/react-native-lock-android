@@ -22,7 +22,7 @@
  * THE SOFTWARE.
  */
 
-package com.auth0.lock.react.bridge;
+package io.holis.lock.react.bridge;
 
 
 import com.facebook.react.bridge.WritableMap;

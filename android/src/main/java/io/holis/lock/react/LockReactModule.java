@@ -22,7 +22,7 @@
  * THE SOFTWARE.
  */
 
-package com.auth0.lock.react;
+package io.holis.lock.react;
 
 
 import android.content.Context;
@@ -32,10 +32,10 @@ import android.support.annotation.Nullable;
 import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 
-import com.auth0.lock.react.bridge.InitOptions;
-import com.auth0.lock.react.bridge.ShowOptions;
-import com.auth0.lock.react.bridge.TokenBridge;
-import com.auth0.lock.react.bridge.UserProfileBridge;
+import io.holis.lock.react.bridge.InitOptions;
+import io.holis.lock.react.bridge.ShowOptions;
+import io.holis.lock.react.bridge.TokenBridge;
+import io.holis.lock.react.bridge.UserProfileBridge;
 import com.auth0.core.Strategies;
 import com.auth0.core.Token;
 import com.auth0.core.UserProfile;
